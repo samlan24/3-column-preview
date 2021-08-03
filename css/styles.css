@@ -57,6 +57,11 @@ body{
     flex-direction: column;
     padding: 50px 0 50px 50px;
 }
+@media screen and (max-width: 990px){
+    .col-3{
+        flex-basis: 100%;
+    }
+};
 .content-img{
     margin-bottom: 30px;
 }
@@ -77,10 +82,41 @@ body{
 .first-card{
     background-color: var(--main-orange-color);
 }
+
+.first-card a{
+    color: var(--main-orange-color);
+}
+
 .second-card{
     background-color: var(--main-cyan-color);
+}
+.second-card a{
+    color: var(--main-cyan-color);
 }
 
 .third-card{
     background-color: var(--main-dark-color);
 }
+.third-card a{
+    color: var(--main-dark-color);
+}
+
+.button a:hover{
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.first-card a:hover{
+    background-color: var(--main-orange-color);
+    
+}
+.second-card a:hover{
+    background-color: var(--main-cyan-color);
+}
+.third-card a:hover{
+    background-color: var(--main-dark-color);
+}
+
+
+
+    
